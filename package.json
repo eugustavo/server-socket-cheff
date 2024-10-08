@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "src/http/server.ts",
   "scripts": {
+    "start": "tsx watch src/http/server.ts",
     "dev": "tsx watch src/http/server.ts",
     "lint": "npx @biomejs/biome lint --write ./src"
   },
